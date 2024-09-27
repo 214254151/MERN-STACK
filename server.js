@@ -5,6 +5,12 @@ const express = require ('express')
 // express app
 const app = express()
 
+// middleware another to log the request that are comming in
+app.use((req,res, next) => {
+    console.log(req.path, req.method) 
+    next()   
+    })
+// middleware
 // route
 app.get('/', (req, res) => {
     res.json({msg: "Hello World"})
