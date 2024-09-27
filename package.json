@@ -8,12 +8,12 @@
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Abongile Tshopi",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "node": "^22.9.0"
+    "nodemon": "^3.1.7"
   },
   "description": ""
 }
