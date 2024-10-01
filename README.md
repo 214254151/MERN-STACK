@@ -1,7 +1,8 @@
 # Created MERN STACK Project
 
 ## npm initialized the project (created the json package file)
-## installed node
-## installed express
-## install nodemon -g (globally)
+## npm install node
+## npm install express
+## npm install nodemon -g (globally)
+## npm install dotenv 
 
