@@ -18,7 +18,6 @@ app.use((req, res, next) => {
   next()
 })
 
-// mongodb+srv://abongiletshopi:512256TSG#@##@#@cluster-mernstack.rpxpk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-MERNSTACK
 
 // Routes:  handling requests for testing
 // `app.get('/', (req, res) => {
