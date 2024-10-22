@@ -31,9 +31,11 @@ const WorkoutForm = () =>{
             console.log('New Workout Added', json)
         }
     }
-
+        
     return(
+        
         <form className="createForm" onSubmit={handleSubmit}>
+            <img src="/pngtree-3d.png" alt="Workout" className="form-image" />
             <h3>Ad a new workout</h3>
 
             <laabel>Excersize Tile : </laabel>
