@@ -117,16 +117,16 @@ input {
 
 form {
   background: #fff;
-  margin-top: 50%;
-  height: 23%;
+  margin-top: 30%;
+  height: 28%;
   padding: 20px;
   border-radius: 4px;
   box-shadow: 2px 2px 5px rgb(4, 196, 255);
   position: sticky;
-  top: 200px; 
+  top: 120px; 
 }
 
-form button {
+/* form button {
   background: var(--primary);
   border: 0;
   color: #fff;
@@ -134,7 +134,33 @@ form button {
   font-family: "Poppins";
   border-radius: 4px;
   cursor: pointer;
+} */
+form button {
+  background: linear-gradient(135deg, var(--primary), #19c2d2); /* Gradient background */
+  border: 0;
+  color: #fff;
+  padding: 12px 20px; /* Increased padding for a larger, more prominent button */
+  font-family: "Poppins", sans-serif;
+  font-size: 16px; /* Larger text for better readability */
+  font-weight: 500;
+  border-radius: 8px; /* More rounded corners for a modern feel */
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: 0.3s ease, transform 0.2s ease; /* Smooth transitions */
 }
+
+form button:hover {
+  background: linear-gradient(135deg, #19c2d2, var(--primary)); /* Reversed gradient on hover */
+  transform: translateY(-2px); /* Subtle upward lift effect on hover */
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15); /* Increased shadow on hover */
+}
+
+form button:active {
+  transform: translateY(0); /* Return to original position on click */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow on click */
+}
+
+
 div.error {
   padding: 10px;
   background: #ffefef;
@@ -142,4 +168,16 @@ div.error {
   color: var(--error);
   border-radius: 4px;
   margin: 20px 0;
+}
+
+.form-image {
+  display: flex;
+  margin-left: 70px;
+  max-width: 40%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  border-style:outset;
+  border-color: #b5edf7;
+  /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); */
 }
