@@ -3,7 +3,7 @@
 
 /* layout */
 :root {
-  --primary: #1aac83;
+  --primary: #1a96ac;
   --error: #e7195a;
 }
 body {
@@ -97,7 +97,7 @@ div.error {
   color: var(--error);
   border-radius: 4px;
   margin: 20px 0;
-  
+
 }/* new workout form */
 label, input {
   display: block;
@@ -111,6 +111,16 @@ input {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgb(4, 196, 255);
+  position: sticky;
+  top: 20px; /* Adjust as needed */
+}
+
 form button {
   background: var(--primary);
   border: 0;
