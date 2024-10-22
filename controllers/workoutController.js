@@ -8,6 +8,7 @@ const getWorkoutDocs = async(req, res) =>{
     res.status(200).json(workoutDocs)
 }
 
+
 // get a single workout
 const getWorkoutDoc = async (req, res) => {
     const {id} = req.params 
